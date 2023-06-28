@@ -2,14 +2,14 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{ include "sf_web_app.fullname" . }}
+  name: {{ include "sf-web-app.fullname" . }}
   labels:
-    {{- include "sf_web_app.labels" . | nindent 4 }}
+    {{- include "sf-web-app.labels" . | nindent 4 }}
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: {{ include "sf_web_app.fullname" . }}
+    name: {{ include "sf-web-app.fullname" . }}
   minReplicas: {{ .Values.autoscaling.minReplicas }}
   maxReplicas: {{ .Values.autoscaling.maxReplicas }}
   metrics:

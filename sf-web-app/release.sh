@@ -1,6 +1,6 @@
 cat <<EOF >Chart.yaml
 apiVersion: v2
-name: sf_web_app
+name: sf-web-app
 
 description: A Helm chart for Skillfactory Django web site
 type: application
