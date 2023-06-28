@@ -25,12 +25,14 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: ""
 
-db_name: django
+
 
 podAnnotations: {}
-db_username: admin
-db_password: test123
-db_host: my-release-postgresql.default.svc.cluster.local
+
+db_name: "django"
+db_username: "admin"
+db_password: "test123"
+db_host: "my-release-postgresql.default.svc.cluster.local"
 db_port: "5432"
 
 podSecurityContext: {}
