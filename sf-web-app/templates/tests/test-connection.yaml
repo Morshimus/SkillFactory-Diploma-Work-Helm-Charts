@@ -10,5 +10,6 @@ spec:
   containers:
     - name: wget
       image: busybox
-      command: ['wget {{ include "sf-web-app.fullname" . }}:{{ .Values.service.port }}/admin/']
+      command: ['wget']
+      args: ['{{ include "sf-web-app.fullname" . }}:{{ .Values.service.port }}/admin/']
   restartPolicy: Never
