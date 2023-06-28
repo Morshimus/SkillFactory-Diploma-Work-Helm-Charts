@@ -47,8 +47,23 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-        - env:
-            {{- toYaml .Values.environment | nindent 12 }}
+          env:
+            - name: DJANGO_DB_USER
+              valueFrom:
+                secretKeyRef:
+                  key:  db-username
+                  name: {{ .Release.Name }}-auth
+            - name: DJANGO_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: db-password
+                  name: {{ .Release.Name }}-auth  
+            - name: DJANGO_DB_NAME
+              value:  {{ .Values.db_name }}
+            - name: DJANGO_DB_HOST
+              value: {{ .Values.db_host }}
+            - name: DJANGO_DB_PORT
+              value: {{ .Values.db_port }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
