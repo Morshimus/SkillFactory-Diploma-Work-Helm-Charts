@@ -68,6 +68,17 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
+#environment:
+#        - name: DJANGO_DB_NAME
+#          value: django
+#        - name: DJANGO_DB_USER
+#          value: admin
+#        - name: DJANGO_DB_PASSWORD
+#          value: somepass
+#        - name: DJANGO_DB_HOST
+#          value: my-release-postgresql.default.svc.cluster.local
+#        - name: DJANGO_DB_PORT
+#          value: "5432"
 autoscaling:
   enabled: false
   minReplicas: 1
