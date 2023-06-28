@@ -11,5 +11,5 @@ spec:
     - name: wget
       image: busybox
       command: ['wget']
-      args: ['{{ include "sf-web-app.fullname" . }}:{{ .Values.service.port }}/admin']
+      args: ['{{ include "sf-web-app.fullname" . }}:{{ .Values.service.port }}/polls/']
   restartPolicy: Never
