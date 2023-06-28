@@ -16,8 +16,8 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-db_name: "django"
-db_username: "admin"
-db_password: "test123"
-db_host: "my-release-postgresql.default.svc.cluster.local"
-db_port: "5432"
+db_name: 'django'
+db_username: 'admin'
+db_password: 'test123'
+db_host: 'my-release-postgresql.default.svc.cluster.local'
+db_port: '"5432"'
