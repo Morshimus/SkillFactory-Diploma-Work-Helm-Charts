@@ -40,6 +40,9 @@ service:
   type: NodePort
   port: 8000
 
+secret:
+   enabled: false
+   
 ingress:
   enabled: false
   className: ""
