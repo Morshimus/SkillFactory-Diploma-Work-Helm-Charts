@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.3.0
-    created: "2023-06-29T11:14:40.262682402Z"
+    created: "2023-06-29T13:14:33.748002791Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -16,7 +16,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: 45cea44d1b238ac9bd0654d15a2005f11c08df99520138e995e582a279304c0b
+    digest: 57557bfb2ea1c997308e0542909109ed9ab6e1f8284c261205e7dc3f6b77ab58
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -36,6 +36,16 @@ entries:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/postgresql-12.5.9.tgz
     version: 12.5.9
   sf-web-app:
+  - apiVersion: v2
+    appVersion: "3.6"
+    created: "2023-06-29T13:14:33.748434318Z"
+    description: A Helm chart for Skillfactory Django web site
+    digest: 516d4a406ca3c703a54107f4048bf3dead00c3f41bf985124cf8b66359be88c7
+    name: sf-web-app
+    type: application
+    urls:
+    - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-4.0.0.tgz
+    version: 4.0.0
   - apiVersion: v2
     appVersion: "3.5"
     created: "2023-06-29T11:14:40.263265595Z"
@@ -66,4 +76,4 @@ entries:
     urls:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-3.7.0.tgz
     version: 3.7.0
-generated: "2023-06-29T11:14:40.257902024Z"
+generated: "2023-06-29T13:14:33.743777414Z"
