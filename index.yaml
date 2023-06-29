@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   sf-web-app:
   - apiVersion: v2
+    appVersion: "3.4"
+    created: "2023-06-29T09:17:40.74708374Z"
+    description: A Helm chart for Skillfactory Django web site
+    digest: c21101fb273f3b0537faf8694e3a553a3d3d459230a7f7886a98dfbe707b1ffc
+    name: sf-web-app
+    type: application
+    urls:
+    - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-3.8.0.tgz
+    version: 3.8.0
+  - apiVersion: v2
     appVersion: "3.3"
     created: "2023-06-29T08:50:19.066609886Z"
     description: A Helm chart for Skillfactory Django web site
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-3.7.0.tgz
     version: 3.7.0
-generated: "2023-06-29T08:50:19.065839256Z"
+generated: "2023-06-29T09:17:40.746382102Z"
