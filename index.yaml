@@ -9,6 +9,6 @@ entries:
     name: sf-web-app
     type: application
     urls:
-    - https://github.com/Morshimus/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-2.5.0.tgz
+    - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-2.5.0.tgz
     version: 2.5.0
 generated: "2023-06-29T10:08:14.5689768+03:00"
