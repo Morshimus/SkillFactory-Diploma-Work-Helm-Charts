@@ -1,6 +1,7 @@
 # Copyright VMware, Inc.
 # SPDX-License-Identifier: APACHE-2.0
-
+sealedsecret:
+    enabled: false
 ## @section Global parameters
 ## Please, note that this will override the parameters, including dependencies, configured to use the global value
 ##
