@@ -6,7 +6,41 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.3.0
-    created: "2023-06-30T14:02:17.795380058Z"
+    created: "2023-06-30T15:10:36.381076734Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: PostgreSQL (Postgres) is an open source object-relational database
+      known for reliability and data integrity. ACID-compliant, it supports foreign
+      keys, joins, views, triggers and stored procedures.
+    digest: e1ff8184d63abeaff5cf3398fbb4450eedc3bd9f21f699798a4ce04259d332f6
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
+    urls:
+    - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/postgresql-12.5.11.tgz
+    version: 12.5.11
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 15.3.0
+    created: "2023-06-30T15:10:36.376281375Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -40,7 +74,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.3.0
-    created: "2023-06-30T14:02:17.800850799Z"
+    created: "2023-06-30T15:10:36.388091861Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -72,10 +106,10 @@ entries:
   promtail:
   - apiVersion: v2
     appVersion: 2.8.2
-    created: "2023-06-30T14:02:17.802452946Z"
+    created: "2023-06-30T15:10:36.389892595Z"
     description: Promtail is an agent which ships the contents of local logs to a
       Loki instance
-    digest: 6a4705b5ca814589d4bbfcdb378aaa50ca822841073e5e960f0a1e3a9a0a3b1a
+    digest: 67ce69fef9a5e5383428b7a253619efcb0dc700e43fe7d20b0ed56ab43889170
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     maintainers:
@@ -92,6 +126,16 @@ entries:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/promtail-6.11.5.tgz
     version: 6.11.5
   sf-web-app:
+  - apiVersion: v2
+    appVersion: "4.3"
+    created: "2023-06-30T15:10:36.390381684Z"
+    description: A Helm chart for Skillfactory Django web site
+    digest: 51182f9c95bf0523bab958f6564bb36703c78889f4854a1807f05470853a003c
+    name: sf-web-app
+    type: application
+    urls:
+    - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-5.1.0.tgz
+    version: 5.1.0
   - apiVersion: v2
     appVersion: "4.3"
     created: "2023-06-30T14:02:17.802964991Z"
@@ -232,4 +276,4 @@ entries:
     urls:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-3.7.0.tgz
     version: 3.7.0
-generated: "2023-06-30T14:02:17.791205169Z"
+generated: "2023-06-30T15:10:36.368689857Z"
