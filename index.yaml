@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.3.0
-    created: "2023-07-01T13:42:19.339554122Z"
+    created: "2023-07-01T14:23:58.571575247Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -16,7 +16,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: 45cbb18553cb9e053d30a2af963dbc0f50a7ecc4051f4ae8817e99c8ee4f3f73
+    digest: 309a9660c571e9d1945cb146f89902faef83596f7099c03b3b51f4e6e0e25072
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -140,10 +140,10 @@ entries:
   promtail:
   - apiVersion: v2
     appVersion: 2.8.2
-    created: "2023-07-01T13:42:19.341461841Z"
+    created: "2023-07-01T14:23:58.573549619Z"
     description: Promtail is an agent which ships the contents of local logs to a
       Loki instance
-    digest: 6c98c0b529b3b1aba7a28972819362f21cd8e96dff1ad3b8d36545bb329d1ca8
+    digest: c7c5ae8c87e3cb376edaed25e4e9df97e00748cc3263a922b104cae349b270b6
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     maintainers:
@@ -160,6 +160,16 @@ entries:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/promtail-6.11.5.tgz
     version: 6.11.5
   sf-web-app:
+  - apiVersion: v2
+    appVersion: "4.6"
+    created: "2023-07-01T14:23:58.574080774Z"
+    description: A Helm chart for Skillfactory Django web site
+    digest: df8249af3ae1b71ab24c4f8d00d92fe139acace77018940ab632fc17543b6aa6
+    name: sf-web-app
+    type: application
+    urls:
+    - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-5.5.0.tgz
+    version: 5.5.0
   - apiVersion: v2
     appVersion: "4.5"
     created: "2023-07-01T13:42:19.341972163Z"
@@ -340,4 +350,4 @@ entries:
     urls:
     - https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-3.7.0.tgz
     version: 3.7.0
-generated: "2023-07-01T13:42:19.334614441Z"
+generated: "2023-07-01T14:23:58.56392742Z"
