@@ -28,7 +28,3 @@ This repository hosts a collection of Helm charts for various applications and s
 - [Download Chart](https://morshimus.github.io/SkillFactory-Diploma-Work-Helm-Charts/sf-web-app-6.0.0.tgz)
 
 Please refer to the respective chart details for more information and usage instructions.
-
-## License
-
-This repository is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for more details.
